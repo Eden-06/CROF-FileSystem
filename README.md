@@ -9,3 +9,5 @@ In this example, role-based design patterns should be employed assigning the dom
 > Whenever a file or directory changes it's size, its enclosing directory should be notified to recompute its size.**
 
 The initial CROM model (stored in `model/FileSystem.crom_diagram`) is shown below:
+
+![Initial CROM model from `model/FileSystem.crom_diagram`](https://github.com/Eden-06/CROF-FileSystem/blob/master/model/FileSystem.svg)
