@@ -19,7 +19,7 @@ The initial CROM model (stored in `model/FileSystem.crom_diagram`) is shown belo
     2. Enter <https://github.com/Eden-06/CROF-FileSystem.git> into the URI field and hit "Next>"
     3. Only select the **master** branch and continue with "Next>"
     4. Continue with "Next>" until you can "Finish" the project import.
-2. Open the added *Bank* project and open the model folder.
+2. Open the added *CROF-FileSystem* project and open the model folder.
     * If *FRaMED 2.0* was installed, simply open the `FileSystem.crom_diagram` file by double clicking on it.
     * Otherwise, open the `FileSystem.crom` file directly (double click) in the standard Tree Editor.
 3. By left clicking on the `bank.crom` file, and clicking on the context menu entry "Generate > CROM Framework", the framework is tasked to create the model code for the *FileSystem* CROM model.
