@@ -6,6 +6,7 @@ In this example, role-based design patterns should be employed assigning the dom
 > **A *file system* includes *files* and *directories*.
 > Both files and directories have a modifiable *name* and return their *size* in Bytes.
 > While files return the size of their content, directories should return the accumulated size of all containing directories and files.
+> A directory can contain multiple files and directories as children.
 > Whenever a file or directory changes it's size, its enclosing directory should be notified to recompute its size.**
 
 The initial CROM model (stored in `model/FileSystem.crom_diagram`) is shown below:
