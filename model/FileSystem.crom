@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<crom_l1_composed:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:crom_l1_composed="platform:/resource/org.rosi.crom.metamodel/">
+  <elements xsi:type="crom_l1_composed:NaturalType" name="NTFile">
+    <attributes name="name" type="//@elements.2"/>
+    <attributes name="size" type="//@elements.3"/>
+    <operations name="append" type="//@elements.4">
+      <params name="b" type="//@elements.3"/>
+    </operations>
+  </elements>
+  <elements xsi:type="crom_l1_composed:NaturalType" name="NTDirectory">
+    <attributes name="name" type="//@elements.2"/>
+    <attributes name="size" type="//@elements.3"/>
+  </elements>
+  <elements xsi:type="crom_l1_composed:DataType" name="String"/>
+  <elements xsi:type="crom_l1_composed:DataType" name="Integer"/>
+  <elements xsi:type="crom_l1_composed:DataType" name="Boolean"/>
+</crom_l1_composed:Model>

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:org.framed.iorm.model="http://iorm/1.0" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms">
+  <pi:Diagram visible="true" gridUnit="10" diagramTypeId="CROM_Diagram" name="Container" version="0.15.0">
+    <properties key="diagram kind" value="container_diagram"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+    <children xsi:type="pi:Diagram" visible="true" gridUnit="10" diagramTypeId="CROM_Diagram" name="FileSystem" snapToGrid="true" pictogramLinks="/0/@children.0/@link /0/@children.0/@children.0/@link /0/@children.0/@children.0/@children.1/@link /0/@children.0/@children.0/@children.0/@link /0/@children.0/@children.0/@children.1/@children.0/@link /0/@children.0/@children.0/@children.1/@children.1/@link /0/@children.0/@children.0/@children.1/@children.2/@link /0/@children.0/@children.0/@children.1/@children.3/@link /0/@children.0/@children.0/@children.1/@children.4/@link /0/@children.0/@children.1/@link /0/@children.0/@children.1/@children.1/@link /0/@children.0/@children.1/@children.0/@link /0/@children.0/@children.1/@children.1/@children.0/@link /0/@children.0/@children.1/@children.1/@children.1/@link /0/@children.0/@children.1/@children.1/@children.2/@link /0/@children.0/@children.1/@children.1/@children.3/@link /0/@children.0/@children.1/@children.1/@children.4/@link /0/@children.0/@children.0/@children.1/@children.2/@children.0/@link /0/@children.0/@children.0/@children.1/@children.2/@children.1/@link /0/@children.0/@children.1/@children.1/@children.2/@children.0/@link /0/@children.0/@children.1/@children.1/@children.2/@children.1/@link /0/@children.0/@children.2/@link /0/@children.0/@children.2/@children.0/@link /0/@children.0/@children.2/@children.1/@link /0/@children.0/@children.2/@children.1/@children.0/@link /0/@children.0/@children.2/@children.1/@children.1/@link /0/@children.0/@children.2/@children.1/@children.2/@link /0/@children.0/@children.2/@children.1/@children.3/@link /0/@children.0/@children.2/@children.1/@children.4/@link /0/@children.0/@children.3/@link /0/@children.0/@children.3/@children.0/@link /0/@children.0/@children.3/@children.1/@link /0/@children.0/@children.3/@children.1/@children.0/@link /0/@children.0/@children.3/@children.1/@children.1/@link /0/@children.0/@children.3/@children.1/@children.2/@link /0/@children.0/@children.3/@children.1/@children.3/@link /0/@children.0/@children.3/@children.1/@children.4/@link /0/@children.0/@children.4/@link /0/@children.0/@children.4/@children.0/@link /0/@children.0/@children.4/@children.1/@link /0/@children.0/@children.4/@children.1/@children.0/@link /0/@children.0/@children.4/@children.1/@children.1/@link /0/@children.0/@children.4/@children.1/@children.2/@link /0/@children.0/@children.4/@children.1/@children.3/@link /0/@children.0/@children.4/@children.1/@children.4/@link /0/@children.0/@children.0/@children.1/@children.4/@children.0/@link" version="0.15.0">
+      <properties key="diagram kind" value="main_diagram"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@children.0/@colors.1" foreground="/0/@children.0/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+      <link businessObjects="/1"/>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="shape id" value="shape_nt_container"/>
+        <link businessObjects="/1/@elements.0"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="shape id" value="shape_nt_shadow"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@children.0/@colors.2" foreground="/0/@children.0/@colors.2" lineWidth="1" transparency="0.0" width="200" height="114" x="53" y="53"/>
+          <link businessObjects="/1/@elements.0"/>
+        </children>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="shape id" value="shape_nt_typebody"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@children.0/@colors.1" foreground="/0/@children.0/@colors.3" lineWidth="1" transparency="0.0" width="200" height="114" x="50" y="50"/>
+          <link businessObjects="/1/@elements.0"/>
+          <anchors xsi:type="pi:ChopboxAnchor"/>
+          <children visible="true">
+            <properties key="shape id" value="shape_nt_name"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" horizontalAlignment="ALIGNMENT_CENTER" value="NTFile"/>
+            <link businessObjects="/1/@elements.0"/>
+          </children>
+          <children visible="true">
+            <properties key="shape id" value="shape_nt_firstline"/>
+            <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0">
+              <points y="20"/>
+              <points x="200" y="20"/>
+            </graphicsAlgorithm>
+            <link businessObjects="/1/@elements.0"/>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="shape id" value="shape_nt_attcontainer"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@children.0/@colors.1" lineWidth="1" lineVisible="false" transparency="0.0" width="194" height="41" x="3" y="23"/>
+            <link businessObjects="/1/@elements.0"/>
+            <children visible="true" active="true">
+              <properties key="shape id" value="shape_att_text"/>
+              <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="194" height="15" x="3" y="23" value="name:String"/>
+              <link businessObjects="/1/@elements.0/@firstSegment/@elements.0"/>
+            </children>
+            <children visible="true" active="true">
+              <properties key="shape id" value="shape_att_text"/>
+              <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="194" height="15" x="3" y="38" value="size:Integer"/>
+              <link businessObjects="/1/@elements.0/@firstSegment/@elements.1"/>
+            </children>
+          </children>
+          <children visible="true">
+            <properties key="shape id" value="shape_nt_secondline"/>
+            <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0">
+              <points y="67"/>
+              <points x="200" y="67"/>
+            </graphicsAlgorithm>
+            <link businessObjects="/1/@elements.0"/>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="shape id" value="shape_nt_opcontainer"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@children.0/@colors.1" lineWidth="1" lineVisible="false" transparency="0.0" width="194" height="41" x="3" y="70"/>
+            <link businessObjects="/1/@elements.0"/>
+            <children visible="true" active="true">
+              <properties key="shape id" value="shape_op_text"/>
+              <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="194" height="15" x="3" y="70" value="append(b:Integer):Boolean"/>
+              <link businessObjects="/1/@elements.0/@secondSegment/@elements.0"/>
+            </children>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="shape id" value="shape_nt_container"/>
+        <link businessObjects="/1/@elements.1"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="shape id" value="shape_nt_shadow"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@children.0/@colors.2" foreground="/0/@children.0/@colors.2" lineWidth="1" transparency="0.0" width="200" height="114" x="343" y="53"/>
+          <link businessObjects="/1/@elements.1"/>
+        </children>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="shape id" value="shape_nt_typebody"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@children.0/@colors.1" foreground="/0/@children.0/@colors.3" lineWidth="1" transparency="0.0" width="200" height="114" x="340" y="50"/>
+          <link businessObjects="/1/@elements.1"/>
+          <anchors xsi:type="pi:ChopboxAnchor"/>
+          <children visible="true">
+            <properties key="shape id" value="shape_nt_name"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" horizontalAlignment="ALIGNMENT_CENTER" value="NTDirectory"/>
+            <link businessObjects="/1/@elements.1"/>
+          </children>
+          <children visible="true">
+            <properties key="shape id" value="shape_nt_firstline"/>
+            <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0">
+              <points y="20"/>
+              <points x="200" y="20"/>
+            </graphicsAlgorithm>
+            <link businessObjects="/1/@elements.1"/>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="shape id" value="shape_nt_attcontainer"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@children.0/@colors.1" lineWidth="1" lineVisible="false" transparency="0.0" width="194" height="41" x="3" y="23"/>
+            <link businessObjects="/1/@elements.1"/>
+            <children visible="true" active="true">
+              <properties key="shape id" value="shape_att_text"/>
+              <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="194" height="15" x="3" y="23" value="name:String"/>
+              <link businessObjects="/1/@elements.1/@firstSegment/@elements.0"/>
+            </children>
+            <children visible="true" active="true">
+              <properties key="shape id" value="shape_att_text"/>
+              <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="194" height="15" x="3" y="38" value="size:Integer"/>
+              <link businessObjects="/1/@elements.1/@firstSegment/@elements.1"/>
+            </children>
+          </children>
+          <children visible="true">
+            <properties key="shape id" value="shape_nt_secondline"/>
+            <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0">
+              <points y="67"/>
+              <points x="200" y="67"/>
+            </graphicsAlgorithm>
+            <link businessObjects="/1/@elements.1"/>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="shape id" value="shape_nt_opcontainer"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@children.0/@colors.1" lineWidth="1" lineVisible="false" transparency="0.0" width="194" height="41" x="3" y="70"/>
+            <link businessObjects="/1/@elements.1"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="shape id" value="shape_dt_container"/>
+        <link businessObjects="/1/@elements.2"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="shape id" value="shape_dt_shadow"/>
+          <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@children.0/@colors.2" foreground="/0/@children.0/@colors.2" lineWidth="1" filled="true" transparency="0.0" width="200" height="100" x="603" y="52">
+            <points y="20"/>
+            <points x="20"/>
+            <points x="180"/>
+            <points x="200" y="20"/>
+            <points x="200" y="80"/>
+            <points x="180" y="100"/>
+            <points x="20" y="100"/>
+            <points y="80"/>
+          </graphicsAlgorithm>
+          <link businessObjects="/1/@elements.2"/>
+        </children>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="shape id" value="shape_dt_typebody"/>
+          <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@children.0/@colors.1" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="true" transparency="0.0" width="200" height="100" x="600" y="49">
+            <points y="20"/>
+            <points x="20"/>
+            <points x="180"/>
+            <points x="200" y="20"/>
+            <points x="200" y="80"/>
+            <points x="180" y="100"/>
+            <points x="20" y="100"/>
+            <points y="80"/>
+          </graphicsAlgorithm>
+          <link businessObjects="/1/@elements.2"/>
+          <anchors xsi:type="pi:ChopboxAnchor"/>
+          <children visible="true">
+            <properties key="shape id" value="shape_dt_name"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="160" height="20" x="20" horizontalAlignment="ALIGNMENT_CENTER" value="String"/>
+            <link businessObjects="/1/@elements.2"/>
+          </children>
+          <children visible="true">
+            <properties key="shape id" value="shape_dt_firstline"/>
+            <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0">
+              <points x="3" y="20"/>
+              <points x="197" y="20"/>
+            </graphicsAlgorithm>
+            <link businessObjects="/1/@elements.2"/>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="shape id" value="shape_dt_attcontainer"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@children.0/@colors.1" lineWidth="1" lineVisible="false" transparency="0.0" width="194" height="24" x="3" y="23"/>
+            <link businessObjects="/1/@elements.2"/>
+          </children>
+          <children visible="true">
+            <properties key="shape id" value="shape_dt_secondline"/>
+            <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0">
+              <points y="50"/>
+              <points x="200" y="50"/>
+            </graphicsAlgorithm>
+            <link businessObjects="/1/@elements.2"/>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="shape id" value="shape_dt_opcontainer"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@children.0/@colors.1" lineWidth="1" lineVisible="false" transparency="0.0" width="194" height="24" x="3" y="53"/>
+            <link businessObjects="/1/@elements.2"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="shape id" value="shape_dt_container"/>
+        <link businessObjects="/1/@elements.3"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="shape id" value="shape_dt_shadow"/>
+          <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@children.0/@colors.2" foreground="/0/@children.0/@colors.2" lineWidth="1" filled="true" transparency="0.0" width="200" height="100" x="812" y="52">
+            <points y="20"/>
+            <points x="20"/>
+            <points x="180"/>
+            <points x="200" y="20"/>
+            <points x="200" y="80"/>
+            <points x="180" y="100"/>
+            <points x="20" y="100"/>
+            <points y="80"/>
+          </graphicsAlgorithm>
+          <link businessObjects="/1/@elements.3"/>
+        </children>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="shape id" value="shape_dt_typebody"/>
+          <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@children.0/@colors.1" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="true" transparency="0.0" width="200" height="100" x="809" y="49">
+            <points y="20"/>
+            <points x="20"/>
+            <points x="180"/>
+            <points x="200" y="20"/>
+            <points x="200" y="80"/>
+            <points x="180" y="100"/>
+            <points x="20" y="100"/>
+            <points y="80"/>
+          </graphicsAlgorithm>
+          <link businessObjects="/1/@elements.3"/>
+          <anchors xsi:type="pi:ChopboxAnchor"/>
+          <children visible="true">
+            <properties key="shape id" value="shape_dt_name"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="160" height="20" x="20" horizontalAlignment="ALIGNMENT_CENTER" value="Integer"/>
+            <link businessObjects="/1/@elements.3"/>
+          </children>
+          <children visible="true">
+            <properties key="shape id" value="shape_dt_firstline"/>
+            <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0">
+              <points x="3" y="20"/>
+              <points x="197" y="20"/>
+            </graphicsAlgorithm>
+            <link businessObjects="/1/@elements.3"/>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="shape id" value="shape_dt_attcontainer"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@children.0/@colors.1" lineWidth="1" lineVisible="false" transparency="0.0" width="194" height="24" x="3" y="23"/>
+            <link businessObjects="/1/@elements.3"/>
+          </children>
+          <children visible="true">
+            <properties key="shape id" value="shape_dt_secondline"/>
+            <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0">
+              <points y="50"/>
+              <points x="200" y="50"/>
+            </graphicsAlgorithm>
+            <link businessObjects="/1/@elements.3"/>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="shape id" value="shape_dt_opcontainer"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@children.0/@colors.1" lineWidth="1" lineVisible="false" transparency="0.0" width="194" height="24" x="3" y="53"/>
+            <link businessObjects="/1/@elements.3"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="shape id" value="shape_dt_container"/>
+        <link businessObjects="/1/@elements.4"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="shape id" value="shape_dt_shadow"/>
+          <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@children.0/@colors.2" foreground="/0/@children.0/@colors.2" lineWidth="1" filled="true" transparency="0.0" width="200" height="100" x="606" y="163">
+            <points y="20"/>
+            <points x="20"/>
+            <points x="180"/>
+            <points x="200" y="20"/>
+            <points x="200" y="80"/>
+            <points x="180" y="100"/>
+            <points x="20" y="100"/>
+            <points y="80"/>
+          </graphicsAlgorithm>
+          <link businessObjects="/1/@elements.4"/>
+        </children>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="shape id" value="shape_dt_typebody"/>
+          <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@children.0/@colors.1" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="true" transparency="0.0" width="200" height="100" x="603" y="160">
+            <points y="20"/>
+            <points x="20"/>
+            <points x="180"/>
+            <points x="200" y="20"/>
+            <points x="200" y="80"/>
+            <points x="180" y="100"/>
+            <points x="20" y="100"/>
+            <points y="80"/>
+          </graphicsAlgorithm>
+          <link businessObjects="/1/@elements.4"/>
+          <anchors xsi:type="pi:ChopboxAnchor"/>
+          <children visible="true">
+            <properties key="shape id" value="shape_dt_name"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="160" height="20" x="20" horizontalAlignment="ALIGNMENT_CENTER" value="Boolean"/>
+            <link businessObjects="/1/@elements.4"/>
+          </children>
+          <children visible="true">
+            <properties key="shape id" value="shape_dt_firstline"/>
+            <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0">
+              <points x="3" y="20"/>
+              <points x="197" y="20"/>
+            </graphicsAlgorithm>
+            <link businessObjects="/1/@elements.4"/>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="shape id" value="shape_dt_attcontainer"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@children.0/@colors.1" lineWidth="1" lineVisible="false" transparency="0.0" width="194" height="24" x="3" y="23"/>
+            <link businessObjects="/1/@elements.4"/>
+          </children>
+          <children visible="true">
+            <properties key="shape id" value="shape_dt_secondline"/>
+            <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@children.0/@colors.3" lineWidth="1" filled="false" transparency="0.0">
+              <points y="50"/>
+              <points x="200" y="50"/>
+            </graphicsAlgorithm>
+            <link businessObjects="/1/@elements.4"/>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="shape id" value="shape_dt_opcontainer"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@children.0/@colors.1" lineWidth="1" lineVisible="false" transparency="0.0" width="194" height="24" x="3" y="53"/>
+            <link businessObjects="/1/@elements.4"/>
+          </children>
+        </children>
+      </children>
+      <colors red="227" green="238" blue="249"/>
+      <colors red="255" green="255" blue="255"/>
+      <colors red="128" green="128" blue="128"/>
+      <colors/>
+    </children>
+    <colors red="227" green="238" blue="249"/>
+    <colors red="255" green="255" blue="255"/>
+  </pi:Diagram>
+  <org.framed.iorm.model:Model>
+    <elements xsi:type="org.framed.iorm.model:Shape" name="NTFile" type="NaturalType">
+      <firstSegment>
+        <elements name="name:String"/>
+        <elements name="size:Integer"/>
+      </firstSegment>
+      <secondSegment>
+        <elements name="append(b:Integer):Boolean"/>
+      </secondSegment>
+    </elements>
+    <elements xsi:type="org.framed.iorm.model:Shape" name="NTDirectory" type="NaturalType">
+      <firstSegment>
+        <elements name="name:String"/>
+        <elements name="size:Integer"/>
+      </firstSegment>
+      <secondSegment/>
+    </elements>
+    <elements xsi:type="org.framed.iorm.model:Shape" name="String" type="DataType">
+      <firstSegment/>
+      <secondSegment/>
+    </elements>
+    <elements xsi:type="org.framed.iorm.model:Shape" name="Integer" type="DataType">
+      <firstSegment/>
+      <secondSegment/>
+    </elements>
+    <elements xsi:type="org.framed.iorm.model:Shape" name="Boolean" type="DataType">
+      <firstSegment/>
+      <secondSegment/>
+    </elements>
+    <framedConfiguration>
+      <features/>
+      <features name="Role_Types"/>
+      <features name="Role_Structure"/>
+      <features name="Role_Properties"/>
+      <features name="Role_Behavior"/>
+      <features name="Role_Inheritance"/>
+      <features name="Playable"/>
+      <features name="Players"/>
+      <features name="Naturals"/>
+      <features name="Compartments"/>
+      <features name="Dates"/>
+      <features name="Dependent"/>
+      <features name="On_Compartments"/>
+      <features name="On_Relationships"/>
+      <features name="Role_Constraints"/>
+      <features name="Role_Implication"/>
+      <features name="Role_Prohibition"/>
+      <features name="Role_Equivalence"/>
+      <features name="Group_Constraints"/>
+      <features name="Occurrence_Constraints"/>
+      <features name="Relationships"/>
+      <features name="Relationship_Constraints"/>
+      <features name="Relationship_Cardinality"/>
+      <features name="Intra_Relationship_Constraints"/>
+      <features name="Parthood_Constraints"/>
+      <features name="Inter_Relationship_Constraints"/>
+      <features name="Compartment_Types"/>
+      <features name="Compartment_Structure"/>
+      <features name="Compartment_Properties"/>
+      <features name="Compartment_Behavior"/>
+      <features name="Compartment_Inheritance"/>
+      <features name="Participants"/>
+      <features name="Playable_by_Defining_Compartment"/>
+      <features name="Data_Types"/>
+      <features name="Data_Type_Inheritance"/>
+    </framedConfiguration>
+  </org.framed.iorm.model:Model>
+</xmi:XMI>
